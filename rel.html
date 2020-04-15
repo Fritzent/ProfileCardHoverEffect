@@ -74,8 +74,80 @@
                 border-radius: 50%;
                 border: 5px solid #8bc34a;
                 transition: border-color 0.4s ease-out .1s;
-                
+
             }
+            .profile:hover .profile-avatar{
+                transition-delay: 0.2s;
+            }
+            .profile-name{
+                margin-top: 10px;
+                margin-bottom: 0;
+                font-size: 30px;
+            }
+            .profile-stats{
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                background-color: #f0f0f0;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                transition: background-color 0.4s ease-out .1s;
+
+            }
+            .profile:hover .profile-stats{
+                transition-delay: 0.2s;
+            }
+            .profile-group{
+                box-sizing: border-box;
+                width: 33.3333%;
+                transition: border-color 0.4s ease-out .1s;
+                border-right: 1px solid #bdbdbd;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+
+            .profile:hover .profile-group{
+                transition-delay: 0.4s;
+            }
+            .profile-group:nth-child(n+4){
+                margin-top: 20px;
+            }
+            .profile-group:nth-child(3n+3){
+                border-right: none;
+            }
+            .profile-param .profile-value{
+                display: block;
+                transition: color 0.4s ease-out .1s;
+            }
+            .profile-param{
+                text-transform: uppercase;
+            }
+            .profile-value{
+                font-size: 30px;
+                color: #8bc34a;
+                font-weight: 700;
+            }
+            .profile-socials{
+                padding-bottom: 25px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                font-size: 17px;
+            }
+            .profile-social{
+                border: 4px solid #8bc34a;
+                color: #8bc34a;
+                border-radius: 50%;
+                transition: color 0.4s ease-out 0.3s;
+                width: 18px;
+                height: 18px;
+                padding: 15px;
+                position: relative;
+                margin-right: 10px;
+            }
+
             
         </style>
 
