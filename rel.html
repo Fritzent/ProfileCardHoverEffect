@@ -57,10 +57,24 @@
             .profile:hover .profile-social{
                 color: white;
             }
+            .profile:hover .profile-group,
+            .profile:hover .profile-avatar{
+                border-color: white;
+            }
+            .profile:hover .profile-stats{
+                background-color: #8bc34a;
+            }
+            .profile-header{
+                transition: color 0.4s ease-out .1s;
+            }
 
             .profile-avatar{
-                width: 300px;
-                height: 200px;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                border: 5px solid #8bc34a;
+                transition: border-color 0.4s ease-out .1s;
+                
             }
             
         </style>
