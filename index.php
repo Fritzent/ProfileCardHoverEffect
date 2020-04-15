@@ -1,3 +1,3 @@
 <?php 
-include_once(“rel.html”); 
+include_once("rel.html"); 
 ?>
